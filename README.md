@@ -1,4 +1,4 @@
-# SwiftCodeChecker
+# XCF-Swift Swift Code Analyer Swift Package Library
 
 A static analysis tool for Swift code that leverages the Swift Syntax package to detect code issues, style problems, and suggest improvements.
 
