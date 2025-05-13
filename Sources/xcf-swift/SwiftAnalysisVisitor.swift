@@ -1059,14 +1059,14 @@ public class SwiftCodeChecker {
         let forceUnwrapIssues = try checkForceUnwraps(at: path)
         allIssues.append(contentsOf: forceUnwrapIssues)
         
-        let longMethodIssues = try checkLongMethods(at: path)
-        allIssues.append(contentsOf: longMethodIssues)
+        //let longMethodIssues = try checkLongMethods(at: path)
+        //allIssues.append(contentsOf: longMethodIssues)
         
         let guardIssues = try checkGuardUsage(at: path)
         allIssues.append(contentsOf: guardIssues)
         
-        let magicNumberIssues = try checkMagicNumbers(at: path)
-        allIssues.append(contentsOf: magicNumberIssues)
+        //let magicNumberIssues = try checkMagicNumbers(at: path)
+        //allIssues.append(contentsOf: magicNumberIssues)
         
         let namingIssues = try checkNamingConventions(at: path)
         allIssues.append(contentsOf: namingIssues)

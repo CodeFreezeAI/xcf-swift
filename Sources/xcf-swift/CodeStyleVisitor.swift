@@ -18,7 +18,7 @@ class CodeStyleVisitor: SwiftAnalysisVisitor {
         // Instead of trying to format the entire file at once, we'll check specific style issues manually
         checkIndentation(node)
         checkLineSpacing(node)
-        checkTrailingWhitespace(node)
+        //checkTrailingWhitespace(node)
     }
     
     private func checkIndentation(_ node: SourceFileSyntax) {
