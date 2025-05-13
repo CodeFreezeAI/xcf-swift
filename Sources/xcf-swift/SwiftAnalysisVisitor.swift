@@ -1043,14 +1043,14 @@ public class SwiftCodeChecker {
         let syntaxIssues = try checkSwiftSyntax(at: path)
         allIssues.append(contentsOf: syntaxIssues)
         
-        let unusedVarIssues = try checkUnusedVariables(at: path)
-        allIssues.append(contentsOf: unusedVarIssues)
+        //let unusedVarIssues = try checkUnusedVariables(at: path)
+        //allIssues.append(contentsOf: unusedVarIssues)
         
         let immutableAssignIssues = try checkImmutableAssignments(at: path)
         allIssues.append(contentsOf: immutableAssignIssues)
         
-        let unreachableIssues = try checkUnreachableCode(at: path)
-        allIssues.append(contentsOf: unreachableIssues)
+        //let unreachableIssues = try checkUnreachableCode(at: path)
+        //allIssues.append(contentsOf: unreachableIssues)
         
         // Previously added checkers
         let complexityIssues = try checkCyclomaticComplexity(at: path)
@@ -1068,8 +1068,8 @@ public class SwiftCodeChecker {
         //let magicNumberIssues = try checkMagicNumbers(at: path)
         //allIssues.append(contentsOf: magicNumberIssues)
         
-        let namingIssues = try checkNamingConventions(at: path)
-        allIssues.append(contentsOf: namingIssues)
+        //let namingIssues = try checkNamingConventions(at: path)
+        //allIssues.append(contentsOf: namingIssues)
         
         let emptyCatchIssues = try checkEmptyCatchBlocks(at: path)
         allIssues.append(contentsOf: emptyCatchIssues)
@@ -1083,8 +1083,8 @@ public class SwiftCodeChecker {
         let deprecatedIssues = try checkDeprecatedUsage(at: path)
         allIssues.append(contentsOf: deprecatedIssues)
         
-        let stringLiteralIssues = try checkStringLiteralHardcoding(at: path)
-        allIssues.append(contentsOf: stringLiteralIssues)
+        //let stringLiteralIssues = try checkStringLiteralHardcoding(at: path)
+        //allIssues.append(contentsOf: stringLiteralIssues)
         
         let optionalChainingIssues = try checkOptionalChainingDepth(at: path)
         allIssues.append(contentsOf: optionalChainingIssues)
