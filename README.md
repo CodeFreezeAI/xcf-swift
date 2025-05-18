@@ -116,7 +116,7 @@ for issue in allIssues {
 | `checkMacroUsage` | Validation of Swift macro usage |
 | `checkMemoryLeaks` | Potential memory leaks |
 | `checkEmptyCatchBlocks` | Empty catch blocks |
-| `checkMagicNumbers` | Hardcoded magic numbers |
+| `checkMagicNumbers` | Hardcoded magic numbers (standalone) |
 | `checkOptionalChainingDepth` | Excessive optional chaining |
 
 ## Requirements
