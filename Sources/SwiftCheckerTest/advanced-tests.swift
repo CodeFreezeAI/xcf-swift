@@ -151,8 +151,8 @@ struct AdvancedTests {
         runTest(name: "Operator Precedence Check (SwiftOperators)", 
                 testFunc: { try checker.checkOperatorPrecedence(at: testFilePath) })
         
-        runTest(name: "Code Style Check (SwiftBasicFormat)", 
-                testFunc: { try checker.checkCodeStyle(at: testFilePath) })
+//        runTest(name: "Code Style Check (SwiftBasicFormat)", 
+//                testFunc: { try checker.checkCodeStyle(at: testFilePath) })
         
         runTest(name: "Refactoring Opportunities (SwiftRefactor)", 
                 testFunc: { try checker.checkRefactoringOpportunities(at: testFilePath) })

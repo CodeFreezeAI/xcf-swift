@@ -110,7 +110,7 @@ for issue in allIssues {
 | `checkUnreachableCode` | Code that will never be executed |
 | `checkForceUnwraps` | Force unwraps of optional values |
 | `checkOperatorPrecedence` | Ambiguous operator precedence issues |
-| `checkCodeStyle` | Code formatting and style issues |
+| `checkCodeStyle` | Code formatting and style issues (standalone) | 
 | `checkRefactoringOpportunities` | Code that could benefit from refactoring |
 | `checkSymbolUsage` | Analysis of how symbols are used |
 | `checkMacroUsage` | Validation of Swift macro usage |

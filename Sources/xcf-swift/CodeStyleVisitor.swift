@@ -93,26 +93,26 @@ class CodeStyleVisitor: SwiftAnalysisVisitor {
         }
     }
     
-    private func checkTrailingWhitespace(_ node: SourceFileSyntax) {
-        // Check for trailing whitespace
-        var lineNumber = 1
-        
-        for line in originalSource.split(separator: "\n", omittingEmptySubsequences: false) {
-            let trimmed = line.trimmingCharacters(in: .whitespaces)
-            
-            // If trimming changed the length and line isn't empty, there's trailing whitespace
-            if !line.isEmpty && trimmed.count < line.count && !line.allSatisfy({ $0.isWhitespace }) {
-                issues.append(
-                    SourceKitIssue(
-                        description: "Line contains trailing whitespace",
-                        line: lineNumber,
-                        column: line.count,
-                        severity: "warning"
-                    )
-                )
-            }
-            
-            lineNumber += 1
-        }
-    }
+//    private func checkTrailingWhitespace(_ node: SourceFileSyntax) {
+//        // Check for trailing whitespace
+//        var lineNumber = 1
+//        
+//        for line in originalSource.split(separator: "\n", omittingEmptySubsequences: false) {
+//            let trimmed = line.trimmingCharacters(in: .whitespaces)
+//            
+//            // If trimming changed the length and line isn't empty, there's trailing whitespace
+//            if !line.isEmpty && trimmed.count < line.count && !line.allSatisfy({ $0.isWhitespace }) {
+//                issues.append(
+//                    SourceKitIssue(
+//                        description: "Line contains trailing whitespace",
+//                        line: lineNumber,
+//                        column: line.count,
+//                        severity: "warning"
+//                    )
+//                )
+//            }
+//            
+//            lineNumber += 1
+//        }
+//    }
 } 

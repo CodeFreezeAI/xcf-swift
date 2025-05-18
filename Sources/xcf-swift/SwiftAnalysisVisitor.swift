@@ -1093,8 +1093,8 @@ public class SwiftCodeChecker {
         let operatorPrecedenceIssues = try checkOperatorPrecedence(at: path)
         allIssues.append(contentsOf: operatorPrecedenceIssues)
         
-        let codeStyleIssues = try checkCodeStyle(at: path)
-        allIssues.append(contentsOf: codeStyleIssues)
+//        let codeStyleIssues = try checkCodeStyle(at: path)
+//        allIssues.append(contentsOf: codeStyleIssues)
         
         let refactoringIssues = try checkRefactoringOpportunities(at: path)
         allIssues.append(contentsOf: refactoringIssues)
