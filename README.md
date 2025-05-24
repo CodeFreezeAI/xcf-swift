@@ -25,14 +25,14 @@ Add SwiftCodeChecker to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/xcf-swift.git", from: "1.0.0")
+    .package(url: "https://github.com/codefreezeai/xcf-swift.git", from: "1.0.0")
 ]
 ```
 
 ### Building from Source
 
 ```bash
-git clone https://github.com/yourusername/xcf-swift.git
+git clone https://github.com/codefreezeai/xcf-swift.git
 cd xcf-swift
 swift build
 ```
