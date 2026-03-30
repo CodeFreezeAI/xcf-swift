@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__xcf-server__build_project",
+      "mcp__xcf-server__xcf",
+      "mcp__xcf-server__list_projects",
+      "Bash(swift build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git tag:*)",
+      "Bash(grep -r \"xcode_analyze\\\\|xcode_snippet\" /Users/toddbruss/Documents/GitHub/Agent/AgentXcode --include=*.swift)",
+      "Bash(find /Users/toddbruss/Documents/GitHub/xcf-swift/Sources -type f -name *.swift)",
+      "mcp__xcf-server__select_project"
+    ]
+  }
+}
