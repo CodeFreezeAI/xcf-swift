@@ -127,3 +127,9 @@ for issue in allIssues {
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
+
+---
+
+**AgentiLoop:** [agentiloop.ai](https://agentiloop.ai/)
+
+Copyright © 2026 AgentiLoop.ai, a Logos InkPen LLC company. All rights reserved.
